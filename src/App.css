@@ -1,0 +1,77 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background for a clean look */
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50; /* Professional dark blue */
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-left .navigation a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-left .navigation a:hover {
+  color: #1abc9c; /* Hover effect with a lighter green */
+}
+
+.header-left .navigation a svg {
+  margin-right: 8px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo img {
+  width: 60px;  /* Set width of the logo */
+  height: 30px; /* Set height of the logo to match the width */
+  margin-right: 10px; /* Adds spacing between logo and site name */
+}
+
+.site-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.profile-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #ecf0f1; /* Light grey background */
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+  font-size: 12px;
+  color: #7f8c8d;
+}
