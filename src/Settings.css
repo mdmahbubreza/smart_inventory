@@ -1,0 +1,44 @@
+.settings {
+    padding: 20px;
+  }
+  
+  .settings h2 {
+    margin-bottom: 20px;
+  }
+  
+  .settings-section {
+    margin-bottom: 30px;
+  }
+  
+  .setting-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .setting-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .setting-item input,
+  .setting-item select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

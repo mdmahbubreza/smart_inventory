@@ -1,0 +1,43 @@
+.alerts {
+    padding: 20px;
+  }
+  
+  .alerts h2 {
+    margin-bottom: 20px;
+  }
+  
+  .alert-group {
+    margin-bottom: 20px;
+  }
+  
+  .alert-group h3 {
+    margin-bottom: 10px;
+  }
+  
+  .alert-group ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .alert-group ul li {
+    background-color: #ffefef;
+    padding: 10px;
+    border: 1px solid #ffc1c1;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert-group ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .alert-group ul li:before {
+    content: '⚠️ ';
+    margin-right: 5px;
+  }
+  
+  .alerts p {
+    font-style: italic;
+    color: #999;
+  }
+  
